@@ -5,6 +5,10 @@
 //  Created by Corbin Bigler on 3/9/25.
 //
 
+# MacOS
+.DS_Store
+
 # Swift Package Manager
 .swiftpm/
 Package.resolved
+
