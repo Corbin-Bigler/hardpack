@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "7095DAA2-24B4-4E78-8732-CFFF803CBD7D",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "HardpackTest",
+        "name" : "HardpackTest"
+      }
+    }
+  ],
+  "version" : 1
+}
