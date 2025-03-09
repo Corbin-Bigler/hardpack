@@ -6,11 +6,11 @@ import PackageDescription
 let package = Package(
     name: "hardpack",
     platforms: [.macOS(.v15)],
-//    products: [
-//        .library(name: "Hardpack", targets: ["Hardpack"])
-//    ],
+    products: [
+        .library(name: "Hardpack", targets: ["Hardpack"])
+    ],
     targets: [
-        .executableTarget(name: "Hardpack"),
+        .target(name: "Hardpack"),
         .testTarget(
             name: "HardpackTest",
             dependencies: [
