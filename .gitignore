@@ -1,0 +1,10 @@
+//
+//  .gitignore
+//  hardpack
+//
+//  Created by Corbin Bigler on 3/9/25.
+//
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
