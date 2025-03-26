@@ -7,6 +7,87 @@
 
 import Foundation
 
+struct Test: Codable {
+    let string: String
+    let int8: Int8
+    let int16: Int16
+    let int32: Int32
+    let int64: Int64
+    let uInt8: UInt8
+    let uInt16: UInt16
+    let uInt32: UInt32
+    let uInt64: UInt64
+    let float: Float
+    let double: Double
+    let bool: Bool
+    let date: Date
+    let data: Data
+    let uuid: UUID
+    
+    let arrayString: [String]
+    let arrayInt8: [Int8]
+    let arrayInt16: [Int16]
+    let arrayInt32: [Int32]
+    let arrayInt64: [Int64]
+    let arrayUInt8: [UInt8]
+    let arrayUInt16: [UInt16]
+    let arrayUInt32: [UInt32]
+    let arrayUInt64: [UInt64]
+    let arrayFloat: [Float]
+    let arrayDouble: [Double]
+    let arrayBool: [Bool]
+    let arrayDate: [Date]
+    let arrayData: [Data]
+    let arrayUuid: [UUID]
+    let arrayNested: [Test]
+
+    let dictionaryString: [String : String]
+    let dictionaryInt8: [Int8 : Int8]
+    let dictionaryInt16: [Int16 : Int16]
+    let dictionaryInt32: [Int32 : Int32]
+    let dictionaryInt64: [Int64 : Int64]
+    let dictionaryUInt8: [UInt8 : UInt8]
+    let dictionaryUInt16: [UInt16 : UInt16]
+    let dictionaryUInt32: [UInt32 : UInt32]
+    let dictionaryUInt64: [UInt64 : UInt64]
+    let dictionaryFloat: [Float : Float]
+    let dictionaryDouble: [Double : Double]
+    let dictionaryBool: [Bool : Bool]
+    let dictionaryDate: [Date : Date]
+    let dictionaryData: [Data : Data]
+    let dictionaryUuid: [UUID : UUID]
+    let dictionaryNested: [Int8 : Test]
+
+    let optionalString: String?
+    let optionalInt8: Int8?
+    let optionalInt16: Int16?
+    let optionalInt32: Int32?
+    let optionalInt64: Int64?
+    let optionalUInt8: UInt8?
+    let optionalUInt16: UInt16?
+    let optionalUInt32: UInt32?
+    let optionalUInt64: UInt64?
+    let optionalFloat: Float?
+    let optionalDouble: Double?
+    let optionalBool: Bool?
+    let optionalDate: Date?
+    let optionalData: Data?
+    let optionalUuid: UUID?
+    
+    let dictionaryDictionary: [Int8 : [Int8 : Int8]]
+    let dictionaryArray: [Int8 : [Int8]]
+    let dictionaryOptional: [Int8 : Int8?]
+    
+    let arrayArray: [[Int8]]
+    let arrayDictionary: [[Int8 : Int8]]
+    let arrayOptional: [Int8?]
+    
+    let optionalArray: [Int8]?
+    let optionalDictionary: [Int8 : Int8]?
+    let optionalOptional: Int8??
+}
+
+
 public class HardpackDecoder {
     
     public init() {}

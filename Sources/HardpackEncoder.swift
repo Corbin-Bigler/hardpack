@@ -43,7 +43,6 @@ public class HardpackEncoder {
             default: try unwrappedValue.encode(to: self)
             }
         }
-        
         func encodeNil() {
             data.append(0x00)
         }

@@ -6,8 +6,7 @@
 //
 
 @propertyWrapper
-public struct Nullable<Wrapped>: Codable where Wrapped: Codable {
-    
+public struct Nullable<Wrapped>: Codable, @unchecked Sendable where Wrapped: Codable {
     public var wrappedValue: Wrapped?
 
     public init(wrappedValue: Wrapped?) {
